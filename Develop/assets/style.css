@@ -1,23 +1,26 @@
 body {
-    background-color: #;
+    background-color: whitesmoke;
 }
 
 .top {
-    padding: 20px;
-    font-style: oblique;
-    border: 1px solid;
-    border-radius: 20px;
-    background-color: #b49b7e;
     
     
+    background-image: url("./images/background-4.webp");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-stretch: wider 5px;
+
 }
 
 header h1 {
     display: flex;
-    font-size: 48px;
+    font-size: 40px;
+    color: black;
     position: relative;
     justify-content: center;
-    bottom: 30px;
+    bottom: 20px;
+    
 
 }
 
@@ -32,6 +35,7 @@ header nav {
 
 header ul {
     list-style-type: none;
+    min-width: 486px;
 }
 
 header ul li {
@@ -40,50 +44,128 @@ header ul li {
 }
 
 .picture {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    margin-top: 80px;
+    height: 50%;
     
 }
 
-img {
-    border-radius: 10%;
- 
-    height: auto;
-}
+    
 
 .title {
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: 5px;
 }
 
 .content {
     display: flex;
-    position: relative;
-    padding: 50px;
-    width: 30%;
-    margin-top: 100px;
-    margin-bottom: 200px;
-   flex-direction: column;
-   align-items: center;
+    width: 50%;
+    margin-bottom: 100px;
+    padding: 30px;
+    background-color: white;
+
+    
    
 }
 
-.section content {
+.projects {
     display: flex;
-    position: center;
-    border: 5px;
-    border-color: black;
+    width: 50%;
+    padding: 30px;
+    background-color: white;
 
 }
 
-.section text {
-    display: inline-block;
-}
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url("./images/background-4.webp");
+    background-size: cover;
+    flex-wrap: wrap;
 }
+
+div {
+    background-image: url("./images/background-4.webp"); 
+}
+
+.content h1 {
+    font-style: italic;
+    font-size: 30px;
+    font-stretch: wider 5px;
+
+    
+}
+
+.content h2 {
+    text-align: top;
+    font-style: italic;
+    font-size: 20px;
+    padding-right: 20px;
+}
+ 
+.section h2 {
+    font-style: italic;
+    font-size: 40px;
+}
+
+
+.header1 {
+    min-width: 498px;
+}
+
+
+
+section nav {
+    display: flex;
+    flex-direction: row;
+}
+  
+
+
+section .header3 {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+.contact-me li {
+    padding: 20px;
+}
+    
+.selfie{
+   
+    width: 200px;
+    
+    border-radius: 10px;
+    padding: 30px;
+    
+}
+
+.project1 {
+    width: 100px;
+    padding: 20px;
+}
+
+.project3 {
+   
+    width: 100px;
+    padding: 20px;
+
+}
+
+.project0 {
+    width: 100px;
+}
+
+
+.text {
+   
+    padding-top: 60px;
+}
+
