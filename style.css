@@ -84,13 +84,13 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("./images/background-4.webp");
+    background-image: url("./img/background-4.webp");
     background-size: cover;
     flex-wrap: wrap;
 }
 
 div {
-    background-image: url("./images/background-4.webp"); 
+    background-image: url("./img/background-4.webp"); 
 }
 
 .content h1 {
