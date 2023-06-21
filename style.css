@@ -171,3 +171,9 @@ section .header3 {
     padding-top: 60px;
 }
 
+.zenHubApp {
+    width: 300px;
+    padding: 50px;
+    flex-direction: row;
+    
+}
